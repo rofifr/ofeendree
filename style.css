@@ -8,7 +8,7 @@
 
 /* width */
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 0px;
 }
 
 /* Track */
@@ -170,6 +170,24 @@ body {
   font-size: 1.2rem;
   font-weight: 100;
 }
+
+.info .card-header {
+  border-bottom: 1px solid #464646;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+  padding: 1rem 0;
+}
+
+.info .card-body {
+  font-size: 1rem;
+}
+
+.info .card-footer {
+  border-top: 1px solid #464646;
+  font-size: 0.9rem;
+  font-weight: 200;
+}
+
 /* Media Query */
 /* Extra large */
 
